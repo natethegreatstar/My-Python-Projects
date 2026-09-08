@@ -1,0 +1,10 @@
+# Class: CSE 1321L
+# Section: 52 python
+# Term: Spring
+# Instructor: Roshni Satish
+# Name: Nathaniel Neal
+# Lab: Assignment 1
+# Program Assignment1A.py
+# Let’s imagine we are a developer of the website for the Postal Service of an imaginary country. We are tasked with updating the alerts banner for the homepage for the Postal Service, so the users may be able to know of upcoming situations that may disrupt service. Alerts such as holidays low downs, website maintenance, disruption of service due to geological phenomena, etc.
+alert_ask = input("Enter the alert message: ")
+print("<div class=”g-alert”><p>" + alert_ask + "</p></div>")
